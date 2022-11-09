@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "9Charger",
+  "version": "0.0.0",
+  "description": "Nine Chronicles AP Recharge Notifier / Recharge Query Browser Extension",
+
+  "action": {
+    "default_icon": {},
+    "default_title": "9Charger"
+  },
+  "icons": {},
+  "permissions": ["unlimitedStorage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "cross_origin_embedder_policy": { "value": "require-corp" },
+  "cross_origin_opener_policy": { "value": "same-origin" }
+}

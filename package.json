@@ -1,0 +1,17 @@
+{
+  "name": "9charger",
+  "packageManager": "yarn@3.2.4",
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^94.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "chrome-types": "^0.1.146",
+    "eslint": "^8.27.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@planetarium/account-local": "^0.0.0",
+    "@planetarium/sign": "^0.0.3"
+  }
+}
