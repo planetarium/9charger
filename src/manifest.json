@@ -29,7 +29,7 @@
   "background": {
 		"persistent": false,
 		"scripts": [
-			"background.js"
+			"background/main.js"
 		]
 	},
 
