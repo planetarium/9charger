@@ -2,7 +2,8 @@
   "name": "9charger",
   "packageManager": "yarn@3.2.4",
   "scripts": {
-    "build": "NODE_ENV=\"production\" node esbuild.js"
+    "build": "NODE_ENV=\"production\" node esbuild.js",
+    "fmt": "prettier --write ./src"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",

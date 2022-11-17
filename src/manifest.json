@@ -27,11 +27,9 @@
   },
   "permissions": ["unlimitedStorage"],
   "background": {
-		"persistent": false,
-		"scripts": [
-			"background/main.js"
-		]
-	},
+    "persistent": false,
+    "scripts": ["background/main.js"]
+  },
 
   "cross_origin_embedder_policy": { "value": "require-corp" },
   "cross_origin_opener_policy": { "value": "same-origin" }
